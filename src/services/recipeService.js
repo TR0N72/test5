@@ -1,4 +1,5 @@
 import { apiClient } from '../config/api';
+import { ResepMinuman } from '../data/minuman';
 
 class RecipeService {
   /**
@@ -14,6 +15,20 @@ class RecipeService {
    * @returns {Promise}
    */
   async getRecipes (params = {}) {
+    if (params.category === 'minuman') {
+      console.log('Using local data for minuman');
+      const data = Object.values(ResepMinuman.resep);
+      return Promise.resolve({
+        success: true,
+        data: data,
+        pagination: {
+          page: 1,
+          limit: data.length,
+          total: data.length,
+          total_pages: 1,
+        }
+      });
+    }
     try {
       const response = await apiClient.get('/api/v1/recipes', { params });
       return response;

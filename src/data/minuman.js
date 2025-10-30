@@ -3,6 +3,7 @@ export const ResepMinuman = {
     "resep1": {
       "id": 1,
       "name": "Es Teh Manis",
+      "prep_time": 5,
       "ingredients": [
         "2 kantong teh celup",
         "500 ml air panas",
@@ -20,6 +21,7 @@ export const ResepMinuman = {
     "resep2": {
       "id": 2,
       "name": "Kopi Susu",
+      "prep_time": 10,
       "ingredients": [
         "2 sdm kopi bubuk",
         "200 ml air panas",
@@ -36,6 +38,7 @@ export const ResepMinuman = {
     "resep3": {
       "id": 3,
       "name": "Jus Alpukat",
+      "prep_time": 15,
       "ingredients": [
         "2 buah alpukat matang",
         "200 ml susu cair",
@@ -53,6 +56,7 @@ export const ResepMinuman = {
     "resep4": {
       "id": 4,
       "name": "Es Jeruk Segar",
+      "prep_time": 10,
       "ingredients": [
         "4 buah jeruk manis",
         "1 sdm gula pasir",
@@ -70,6 +74,7 @@ export const ResepMinuman = {
     "resep5": {
       "id": 5,
       "name": "Wedang Jahe",
+      "prep_time": 20,
       "ingredients": [
         "2 ruas jahe (geprek)",
         "500 ml air",
@@ -87,6 +92,7 @@ export const ResepMinuman = {
     "resep6": {
       "id": 6,
       "name": "Es Kopi Dalgona",
+      "prep_time": 15,
       "ingredients": [
         "2 sdm kopi instan",
         "2 sdm gula pasir",
@@ -105,6 +111,7 @@ export const ResepMinuman = {
     "resep7": {
       "id": 7,
       "name": "Es Cendol",
+      "prep_time": 25,
       "ingredients": [
         "100 gram cendol",
         "200 ml santan matang",
@@ -121,6 +128,7 @@ export const ResepMinuman = {
     "resep8": {
       "id": 8,
       "name": "Milkshake Cokelat",
+      "prep_time": 10,
       "ingredients": [
         "2 scoop es krim cokelat",
         "200 ml susu cair",
@@ -138,6 +146,7 @@ export const ResepMinuman = {
     "resep9": {
       "id": 9,
       "name": "Es Buah Segar",
+      "prep_time": 15,
       "ingredients": [
         "100 gram semangka (potong dadu)",
         "100 gram melon (potong dadu)",
@@ -155,6 +164,7 @@ export const ResepMinuman = {
     "resep10": {
       "id": 10,
       "name": "Lemon Tea",
+      "prep_time": 5,
       "ingredients": [
         "1 kantong teh celup",
         "1 buah lemon",
